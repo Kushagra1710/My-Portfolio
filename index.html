@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+</head>
+<body>
+    <!-- menu -->
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name"><i class="fa-solid fa-code"></i>KS</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav-menu-list">
+                    <li class="nav-list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <!-- DARK MODe -->
+
+            <div class="mode">
+                 <div class="light-dark" id="toggle">
+                    <i class="fa-regular fa-sun" id="light"></i>
+                    <i class="fa-solid fa-moon" id="dark"></i>
+                 </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="fa-solid fa-bars" onclick="myMenuFunc()"></i>
+            </div>
+        </nav>
+
+        <!-- main -->
+
+        <main class="wrapper">
+            <section class="section" id="home">
+                <section class="featured-box" >
+                
+                  <div class="featured-text">
+                        <div class="hello">
+                          <p>Hello!! 👋🏻👋🏻 I'm a</p>
+                        </div>
+                        <div class="featured-name">
+                          <span class="typedText"></span>                      
+                        </div>
+                        <div class="text-info">
+                          <p>My name is Kushagra Sharma! I'm a web developer</p>
+                        </div>
+                        <div class="text-btn">
+                          <button class="btn hire-btn">Hire me</button>
+                          <button class="btn">Download CV<i class="fa-solid fa-file"></i></button>
+                        </div>
+                        <div class="social-icons">
+                          <div class="icon-circle"></div>
+                          <div class="icon"><a href ="https://x.com/home" target="blank" rel="noopener noreferr"><i class="fa-brands fa-twitter"></i></a></div>
+                          <div class="icon"><a href="https://www.linkedin.com/feed/" target="blank" rel="noopener noreferr"><i class="fa-brands fa-linkedin"></i></a></div>
+                          <div class="icon"><a href="https://github.com/Kushagra1710" target="blank" rel="noopener noreferr"><i class="fa-brands fa-github"></i></a></div>
+                          <div class="icon"><a href="#contact"><i class="fa-solid fa-envelope"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="featured-image">
+                        <div class="image">
+                           <img src="IMG_1143 3.jpeg" alt="">
+                        </div>
+                 </div>
+                 </section>
+            </section> 
+
+            <!-- about section -->
+
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="IMG_1210.png" alt="" class="profile"/>
+                                    <h2>Web developer</h2>
+                                    <p>My name is Kushagra Sharma! I'm a web developer</p>
+                            </figure>
+                            <a href="#contact"><botton class="about-me-btn">Hire Me</botton></a>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-box">
+                            <span class="title">HTML</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per html">
+                                        <span class="tooltip"></span>
+                                    </span>
+                                </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">CSS</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per css">
+                                        <span class="tooltip"></span>
+                                    </span>
+                                </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">JavaScript</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per js">
+                                        <span class="tooltip"></span>
+                                    </span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <h3> My Portfolio </h3>
+                         
+                    </div>
+                  
+                    <div class="project-box">
+                        <i class="fa-solid fa-briefcase"></i>
+                         <h3> ShopOnGo </h3>
+                    </div>
+                    <div class="project-box">
+                        <i class="fa-solid fa-briefcase"></i>
+                         <h3> Upcoming...</h3>
+                    </div>
+                </div>
+
+                <div class="project-containerA">
+                    <div >
+                        <a href="https://github.com/Kushagra1710/My-Portfolio" target="blank" rel="noopener noreferr"><i class="fa-solid fa-link"></i></a> 
+                    </div>
+                  
+                    <div>
+                        <a href="https://github.com/Kushagra1710/ShopOnGo" target="blank" rel="noopener noreferr"><i class="fa-solid fa-link"></i></a> 
+                    </div>
+                    <div >
+                        <a href="https://github.com/Kushagra1710" target="blank" rel="noopener noreferr"><i class="fa-solid fa-link"></i></a> 
+                    </div>
+                    
+                </div>
+            </section>
+               <!-- Contact Box -->
+               <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's Work Together</h1>
+                    <span>Contact me here!!</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+
+                            <h2>Find me <i class="fa-solid fa-turn-down"></i></h2>
+                            <p><i class="fa-solid fa-envelope"></i>Email:ks487013@gmail.com</p>
+                        
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                             <input type="text" class="input-field" placeholder="Your Name">
+                             <input type="text" class="input-field" placeholder="Your Email">
+                            </div>
+                            <div class="text-area">
+                                <input type="text" class="input-subject" placeholder="Subject">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Send<i class="fa-solid fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer-menu-list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+                <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="icon"><i class="fa-brands fa-github"></i></div>
+                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;"></a> All rights reserved 2024</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
