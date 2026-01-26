@@ -101,15 +101,23 @@
     line-height: 1.7;
 }
 
-.link {
+.links {
     margin-top: auto;
-    align-self: flex-start;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.link {
     color: var(--accent);
     font-weight: 600;
     padding: 0.5rem 1.25rem;
     border: 1px solid var(--accent);
     border-radius: 25px;
     transition: all 0.3s ease;
+    text-decoration: none;
+    font-size: 0.9rem;
+    white-space: nowrap;
 }
 
 .link:hover {

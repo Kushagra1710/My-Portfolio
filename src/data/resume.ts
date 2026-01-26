@@ -11,13 +11,14 @@ export const RESUME_DATA = {
         {
             role: "Freelance App Developer",
             company: "DBP Security Services Pvt Ltd",
-            duration: "Nov 2025 - Present",
+            duration: "Nov 2025 - Jan 2026",
             location: "Remote",
             description: [
-                "Architected and released a corporate attendance app designed for 400+ employees to the Google Play Console Closed Testing track.",
-                "Engineered a secure Offline-First architecture using TensorFlow Lite/ML Kit for biometric verification and Stale-While-Revalidate strategy.",
-                "Built a scalable Supabase (PostgreSQL) backend with CI/CD automation for App Bundles."
-            ]
+                "Engineered a scalable Native Android attendance app for 400+ employees using Jetpack Compose and Single Activity Architecture, reducing UI deviations and improving",
+                "Implemented secure Edge AI Biometric Verification using TensorFlow Lite and ML Kit, achieving less than 500ms latency with offline capabilities and dynamic Geo-Fencing validation.",
+                "Optimized data performance by architecting a Supabase (PostgreSQL) backend with Stale-While-Revalidate caching, cutting redundant network calls by 40% and ensuring instant app startup."
+            ],
+            link: "https://play.google.com/store/apps/details?id=com.dbpsecurity.attendify"
         }
     ],
     projects: [
@@ -29,7 +30,8 @@ export const RESUME_DATA = {
                 "Incorporated Firebase Authentication and Supabase for secure data management, including an AI-powered chat assistant.",
                 "Formulated a high-performance caching layer using IndexedDB and TanStack Query."
             ],
-            link: "https://github.com/Kushagra1710/CoinEquityX-Project"
+            link: "https://github.com/Kushagra1710/CoinEquityX-Project",
+            liveUrl: "https://coin-equity-x.vercel.app"
         },
         {
             title: "QwikNews",

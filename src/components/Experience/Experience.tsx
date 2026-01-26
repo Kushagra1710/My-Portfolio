@@ -27,6 +27,11 @@ const Experience = () => {
                                         <li key={i} className={styles.point}>{point}</li>
                                     ))}
                                 </ul>
+                                {exp.link && (
+                                    <a href={exp.link} target="_blank" rel="noopener noreferrer" className={styles.linkButton}>
+                                        Live App
+                                    </a>
+                                )}
                             </div>
                         </ScrollReveal>
                     ))}
